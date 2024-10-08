@@ -1,0 +1,12 @@
+version: '3'
+services:
+  storybook:
+    build: .
+    container_name: abdulai_abubakar_coding_assignmnet12
+    ports:
+      - "8083:8083"
+    environment:
+      - NODE_ENV=development
+    command: npm run storybook
+    volumes:
+      - .:/app

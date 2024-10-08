@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "eslint.config.js"  // Ensure eslint config is excluded from TypeScript compilation
+  ]
+}
