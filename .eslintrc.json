@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "overrides": [
+    {
+      "files": ["setupTests.js"],
+      "env": {
+        "node": true
+      }
+    }
+  ],
+  "rules": {
+    "no-undef": "off" // If necessary, you can disable this rule globally or in overrides
+  }
+}

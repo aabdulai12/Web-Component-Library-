@@ -3,9 +3,14 @@
     "module": "ESNext",
     "target": "ESNext",
     "jsx": "react-jsx",
-    "types": ["vitest/globals", "@testing-library/jest-dom"],  // Add these types
-    "skipLibCheck": true  // Optional: Skips type checking of libraries for faster builds
+    "types": ["vitest/globals", "@testing-library/jest-dom"], // Add these types
+    "skipLibCheck": true // Optional: Skips type checking of libraries for faster builds
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.test.tsx", "src/**/*.spec.tsx"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.tsx"
+  ],
   "exclude": ["node_modules", "dist"]
 }

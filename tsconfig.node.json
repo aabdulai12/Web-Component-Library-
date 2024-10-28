@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",  // CommonJS is standard for Node.js
+    "module": "CommonJS", // CommonJS is standard for Node.js
     "target": "ES2022",
     "lib": ["ES2023"],
     "moduleResolution": "node",
